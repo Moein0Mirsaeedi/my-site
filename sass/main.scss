@@ -104,8 +104,8 @@ nav {
         width: 40px;
         height: 30px;
         position: relative;
-        display: flex;
         cursor: pointer;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         // overflow: hidden;
@@ -158,7 +158,7 @@ nav {
         div:nth-child(1) {
           transform: translateX(0%);
         }
-        div:nth-child(2) {
+        section:nth-child(2) {
           transform: translateX(0%);
         }
       }
@@ -171,7 +171,8 @@ nav {
       right: 0;
       display: flex;
       top: 54px;
-      div {
+      > div,
+      section {
         background-color: white;
         transition: all 500ms;
       }
@@ -181,7 +182,7 @@ nav {
         transform: translateX(-100%);
         border-right: $color-bg-dark 2px dashed;
       }
-      > div:nth-child(2) {
+      > section:nth-child(2) {
         width: 50%;
         height: calc(100vh - 54px);
         transform: translateX(100%);
@@ -216,6 +217,31 @@ nav {
           }
         }
       }
+      > section:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+        overflow-y: auto;
+        > section:nth-child(3) {
+          position: static;
+        }
+        > section {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 30px;
+
+          ion-icon {
+            font-size: 40px;
+            color: $color-text-dark;
+          }
+          a {
+            margin-top: 5px;
+            color: $color-text-dark;
+          }
+        }
+      }
     }
   }
 }
@@ -223,6 +249,12 @@ nav {
 @media screen and (max-width: 370px) {
   nav div.menu-sm div:nth-child(3) > div:nth-child(1) ul li a {
     font-size: 15px;
+  }
+  nav div.menu-sm div:nth-child(3) > section:nth-child(2) > section a {
+    font-size: 10px;
+  }
+  nav div.menu-sm div:nth-child(3) > section:nth-child(2) > section ion-icon {
+    font-size: 30px;
   }
 }
 
