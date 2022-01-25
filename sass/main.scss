@@ -1,6 +1,8 @@
 @import "base";
 
 nav {
+  box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14),
+    0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
   z-index: 5;
   position: fixed;
   background-color: white;
@@ -174,7 +176,6 @@ nav {
       > div,
       > section {
         background-color: white;
-
         transition: all 500ms;
       }
       > div:nth-child(1) {
@@ -304,11 +305,11 @@ article {
     }
 
     .custom-shape-divider-bottom-1643123679 .shape-fill {
-      fill: $color-bg-dark;
+      fill: white;
     }
   }
   section:nth-child(2) {
     height: 300vh;
-    background-color: $color-bg-dark;
+    background-color: white;
   }
 }

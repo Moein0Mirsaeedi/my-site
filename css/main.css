@@ -6,7 +6,7 @@ li { list-style-type: none; }
 
 a { text-decoration: none; }
 
-nav { z-index: 5; position: fixed; background-color: white; width: 100%; }
+nav { box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3); z-index: 5; position: fixed; background-color: white; width: 100%; }
 
 nav div.menu-md { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; }
 
@@ -98,7 +98,7 @@ article section:nth-child(1) .custom-shape-divider-bottom-1643123679 { position:
 
 article section:nth-child(1) .custom-shape-divider-bottom-1643123679 svg { position: relative; display: block; width: calc(100% + 1.3px); height: 82px; }
 
-article section:nth-child(1) .custom-shape-divider-bottom-1643123679 .shape-fill { fill: #1a237e; }
+article section:nth-child(1) .custom-shape-divider-bottom-1643123679 .shape-fill { fill: white; }
 
-article section:nth-child(2) { height: 300vh; background-color: #1a237e; }
+article section:nth-child(2) { height: 300vh; background-color: white; }
 /*# sourceMappingURL=main.css.map */
