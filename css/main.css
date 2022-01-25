@@ -8,29 +8,31 @@ a { text-decoration: none; }
 
 nav { z-index: 5; position: fixed; background-color: white; width: 100%; }
 
-nav div.menu-md { display: flex; justify-content: space-between; align-items: center; padding: 10px; }
+nav div.menu-md { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; }
 
 nav div.menu-md a.brand { font-size: 25px; font-family: "Archivo Black", sans-serif; color: #304ffe; }
 
 nav div.menu-md ul { display: flex; }
 
-nav div.menu-md ul li { margin: 0 20px; }
+nav div.menu-md ul li { margin: 0 10px; }
 
-nav div.menu-md ul li a { color: #304ffe; }
+nav div.menu-md ul li a { color: #304ffe; padding: 5px 10px; border-radius: 20px; border: rgba(255, 255, 255, 0) 2px solid; transition: all 300ms; }
+
+nav div.menu-md ul li a:hover { border: #304ffe 2px solid; box-shadow: 0 4px 5px 0 rgba(26, 35, 126, 0.14), 0 1px 10px 0 rgba(26, 35, 126, 0.12), 0 2px 4px -1px rgba(26, 35, 126, 0.3); }
 
 @media screen and (max-width: 900px) { nav div.menu-md a.brand { font-size: 20px; }
   nav div.menu-md ul { display: flex; }
-  nav div.menu-md ul li { margin: 0 15px; }
+  nav div.menu-md ul li { margin: 0 5px; }
   nav div.menu-md ul li a { font-size: 15px; } }
 
 @media screen and (max-width: 700px) { nav div.menu-md { display: none; }
   nav div.menu-sm { display: block; } }
 
-@media screen and (min-width: 700px) { nav div.menu-sm { display: none; } }
+@media screen and (min-width: 701px) { nav div.menu-sm { display: none; } }
 
 nav { z-index: 5; position: fixed; background-color: white; width: 100%; }
 
-nav div.menu-sm { padding: 10px; }
+nav div.menu-sm { padding: 10px 20px; }
 
 nav div.menu-sm > div { display: flex; justify-content: space-between; align-items: center; }
 
@@ -50,7 +52,7 @@ nav div.menu-sm label > div:nth-child(2):hover span { box-shadow: 0 4px 5px 0 rg
 
 nav div.menu-sm input:checked ~ div:nth-child(2) span:nth-child(1) { transform: translateY(0px) rotate(45deg); transition-delay: 400ms; }
 
-nav div.menu-sm input:checked ~ div:nth-child(2) span:nth-child(2) { transform: translatex(50px); transition-delay: 0ms; }
+nav div.menu-sm input:checked ~ div:nth-child(2) span:nth-child(2) { transform: translatex(70px); transition-delay: 0ms; }
 
 nav div.menu-sm input:checked ~ div:nth-child(2) span:nth-child(3) { transform: translateY(0px) rotate(135deg); transition-delay: 400ms; }
 
@@ -66,13 +68,17 @@ nav div.menu-sm div:nth-child(3) > div:nth-child(1) { width: 50%; height: calc(1
 
 nav div.menu-sm div:nth-child(3) > div:nth-child(2) { width: 50%; height: calc(100vh - 54px); transform: translateX(100%); border-left: #1a237e 2px dashed; }
 
-nav div.menu-sm div:nth-child(3) > div:nth-child(2) { display: flex; flex-direction: column; align-items: center; padding: 10px; }
+nav div.menu-sm div:nth-child(3) > div:nth-child(1) { display: flex; flex-direction: column; padding: 10px; }
 
-nav div.menu-sm div:nth-child(3) > div:nth-child(2) ul { display: flex; flex-direction: column; margin-top: 30px; }
+nav div.menu-sm div:nth-child(3) > div:nth-child(1) ul { display: flex; flex-direction: column; }
 
-nav div.menu-sm div:nth-child(3) > div:nth-child(2) ul li { margin: 10px 0; }
+nav div.menu-sm div:nth-child(3) > div:nth-child(1) ul li { margin-top: 20px; }
 
-nav div.menu-sm div:nth-child(3) > div:nth-child(2) ul li a { color: #304ffe; font-size: 20px; }
+nav div.menu-sm div:nth-child(3) > div:nth-child(1) ul li a { font-size: 25px; color: #304ffe; padding: 5px 10px; border-radius: 20px; border: rgba(255, 255, 255, 0) 2px solid; transition: all 300ms; }
+
+nav div.menu-sm div:nth-child(3) > div:nth-child(1) ul li a:hover { border: #304ffe 2px solid; box-shadow: 0 4px 5px 0 rgba(26, 35, 126, 0.14), 0 1px 10px 0 rgba(26, 35, 126, 0.12), 0 2px 4px -1px rgba(26, 35, 126, 0.3); }
+
+@media screen and (max-width: 370px) { nav div.menu-sm div:nth-child(3) > div:nth-child(1) ul li a { font-size: 15px; } }
 
 article section:nth-child(1) { height: 100vh; background-color: #0b61a8; background-image: radial-gradient(at 83% 46%, #d95e64 0%, transparent 50%), radial-gradient(at 58% 57%, #4242cd 0%, transparent 50%), radial-gradient(at 52% 3%, #4158d8 0%, transparent 50%), radial-gradient(at 34% 47%, #27e2ec 0%, transparent 50%), radial-gradient(at 26% 98%, #e55e43 0%, transparent 50%), radial-gradient(at 17% 42%, #51b8e1 0%, transparent 50%), radial-gradient(at 27% 81%, #df2ce8 0%, transparent 50%); }
 
