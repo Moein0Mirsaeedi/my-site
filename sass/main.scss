@@ -29,6 +29,25 @@ nav {
   }
 }
 
+@media screen and (max-width: 900px) {
+  nav {
+    div.menu-md {
+      a.brand {
+        font-size: 20px;
+      }
+      ul {
+        display: flex;
+        li {
+          margin: 0 15px;
+          a {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
 article {
   section:nth-child(1) {
     height: 100vh;
