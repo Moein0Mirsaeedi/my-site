@@ -28,3 +28,57 @@ nav {
     }
   }
 }
+
+article {
+  section:nth-child(1) {
+    height: 100vh;
+    background-color: hsla(207, 87.7%, 35.1%, 1);
+    background-image: radial-gradient(
+        at 83% 46%,
+        hsla(357, 61.8%, 61%, 1) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        at 58% 57%,
+        hsla(240, 58.2%, 53.1%, 1) 0%,
+        transparent 50%
+      ),
+      radial-gradient(at 52% 3%, hsla(231, 65.9%, 55.1%, 1) 0%, transparent 50%),
+      radial-gradient(
+        at 34% 47%,
+        hsla(183, 83.8%, 53.9%, 1) 0%,
+        transparent 50%
+      ),
+      radial-gradient(at 26% 98%, hsla(10, 75.7%, 58%, 1) 0%, transparent 50%),
+      radial-gradient(at 17% 42%, hsla(197, 70.6%, 60%, 1) 0%, transparent 50%),
+      radial-gradient(
+        at 27% 81%,
+        hsla(297, 80.3%, 54.1%, 1) 0%,
+        transparent 50%
+      );
+    .custom-shape-divider-bottom-1643123679 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      transform: rotate(180deg);
+    }
+
+    .custom-shape-divider-bottom-1643123679 svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 82px;
+    }
+
+    .custom-shape-divider-bottom-1643123679 .shape-fill {
+      fill: $color-bg-dark;
+    }
+  }
+  section:nth-child(2) {
+    height: 300vh;
+    background-color: $color-bg-dark;
+  }
+}
