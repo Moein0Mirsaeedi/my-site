@@ -169,13 +169,34 @@ nav {
         width: 50%;
         height: calc(100vh - 54px);
         transform: translateX(-100%);
-        border-right: $color-bg-dark 2px solid;
+        border-right: $color-bg-dark 2px dashed;
       }
       > div:nth-child(2) {
         width: 50%;
         height: calc(100vh - 54px);
         transform: translateX(100%);
-        border-left: $color-bg-dark 2px solid;
+        border-left: $color-bg-dark 2px dashed;
+      }
+    }
+    div:nth-child(3) {
+      > div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+
+        ul {
+          display: flex;
+          flex-direction: column;
+          margin-top: 30px;
+          li {
+            margin: 10px 0;
+            a {
+              color: $color-text-dark;
+              font-size: 20px;
+            }
+          }
+        }
       }
     }
   }
