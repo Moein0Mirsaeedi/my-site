@@ -1,1 +1,30 @@
 @import "base";
+
+nav {
+  z-index: 5;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  div.menu-md {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    a.brand {
+      font-size: 25px;
+      @include Archivo;
+      color: $color-text-dark;
+    }
+
+    ul {
+      display: flex;
+      li {
+        margin: 0 20px;
+        a {
+          color: $color-text-dark;
+        }
+      }
+    }
+  }
+}

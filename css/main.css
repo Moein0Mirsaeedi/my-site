@@ -1,6 +1,20 @@
-@font-face { font-family: vazir-r; src: url(../fonts/Vazir-Regular-UI.woff2), url(../fonts/Vazir-Regular-UI.woff), url(../fonts/Vazir-Regular-UI.ttf), url(../fonts/Vazir-Regular-UI.eot); }
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+* { margin: 0; padding: 0; font-family: "Roboto", sans-serif; }
 
-@font-face { font-family: vazir-m; src: url(../fonts/Vazir-Medium-UI.woff2), url(../fonts/Vazir-Medium-UI.woff), url(../fonts/Vazir-Medium-UI.ttf), url(../fonts/Vazir-Medium-UI.eot); }
+li { list-style-type: none; }
 
-@font-face { font-family: vazir-b; src: url(../fonts/Vazir-Bold-UI.woff2), url(../fonts/Vazir-Bold-UI.woff), url(../fonts/Vazir-Bold-UI.ttf), url(../fonts/Vazir-Bold-UI.eot); }
+a { text-decoration: none; }
+
+nav { z-index: 5; position: fixed; background-color: white; width: 100%; }
+
+nav div.menu-md { display: flex; justify-content: space-between; align-items: center; padding: 10px; }
+
+nav div.menu-md a.brand { font-size: 25px; font-family: "Archivo Black", sans-serif; color: #304ffe; }
+
+nav div.menu-md ul { display: flex; }
+
+nav div.menu-md ul li { margin: 0 20px; }
+
+nav div.menu-md ul li a { color: #304ffe; }
 /*# sourceMappingURL=main.css.map */
