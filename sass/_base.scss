@@ -1,0 +1,39 @@
+@font-face {
+  font-family: vazir-r;
+  src: url(../fonts/Vazir-Regular-UI.woff2), url(../fonts/Vazir-Regular-UI.woff),
+    url(../fonts/Vazir-Regular-UI.ttf), url(../fonts/Vazir-Regular-UI.eot);
+}
+
+@font-face {
+  font-family: vazir-m;
+  src: url(../fonts/Vazir-Medium-UI.woff2), url(../fonts/Vazir-Medium-UI.woff),
+    url(../fonts/Vazir-Medium-UI.ttf), url(../fonts/Vazir-Medium-UI.eot);
+}
+
+@font-face {
+  font-family: vazir-b;
+  src: url(../fonts/Vazir-Bold-UI.woff2), url(../fonts/Vazir-Bold-UI.woff),
+    url(../fonts/Vazir-Bold-UI.ttf), url(../fonts/Vazir-Bold-UI.eot);
+}
+
+$color-bg-dark: #1a237e;
+$color-bg-light: #8c9eff;
+$color-text: #3d5afe;
+$color-text-dark: #304ffe;
+$color-text-light: #536dfe;
+
+@mixin bg1 {
+  background-image: linear-gradient(
+    45deg,
+    hsla(280, 86.3%, 22.9%, 1) 0%,
+    hsla(225, 97.6%, 83.5%, 1) 100%
+  );
+}
+
+@mixin bg2 {
+  background-image: linear-gradient(
+    45deg,
+    hsla(240, 100%, 13.7%, 1) 0%,
+    hsla(193, 77.8%, 49.4%, 1) 100%
+  );
+}
