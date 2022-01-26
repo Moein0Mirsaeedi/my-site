@@ -179,13 +179,13 @@ nav {
         transition: all 500ms;
       }
       > div:nth-child(1) {
-        width: 50%;
+        width: 40%;
         height: calc(100vh - 54px);
         transform: translateX(-100%);
         border-right: $color-bg-dark 2px dashed;
       }
       > section:nth-child(2) {
-        width: 50%;
+        width: 60%;
         height: calc(100vh - 54px);
         transform: translateX(100%);
         border-left: $color-bg-dark 2px dashed;
@@ -248,7 +248,7 @@ nav {
   }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 455px) {
   nav div.menu-sm div:nth-child(3) > div:nth-child(1) ul li a {
     font-size: 15px;
   }
@@ -262,7 +262,7 @@ nav {
 
 article {
   section:nth-child(1) {
-    height: 100vh;
+    height: 96vh;
     background-color: hsla(207, 87.7%, 35.1%, 1);
     background-image: radial-gradient(
         at 83% 46%,
@@ -289,7 +289,7 @@ article {
       );
     .custom-shape-divider-bottom-1643123679 {
       position: absolute;
-      bottom: 0;
+      bottom: 4vh;
       left: 0;
       width: 100%;
       overflow: hidden;
@@ -301,7 +301,7 @@ article {
       position: relative;
       display: block;
       width: calc(100% + 1.3px);
-      height: 82px;
+      height: 70px;
     }
 
     .custom-shape-divider-bottom-1643123679 .shape-fill {
