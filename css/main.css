@@ -100,7 +100,7 @@ article > section:nth-child(1) { height: 99vh; background-color: #0b61a8; backgr
 
 article > section:nth-child(1) > section { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; height: 100%; }
 
-article > section:nth-child(1) > section > h1 { font-size: 6em; color: white; text-shadow: 2px 2px 10px #1a237e; box-shadow: inset 0px 0px 20px #1a237e; padding: 15px; user-select: none; }
+article > section:nth-child(1) > section > h1 { font-size: 6em; color: white; text-shadow: 4px 4px 0px #1a237e; box-shadow: inset 0px 0px 20px #1a237e; padding: 15px; user-select: none; }
 
 article > section:nth-child(1) > section > h1 span:nth-child(1) { letter-spacing: 0.09em; }
 
@@ -114,6 +114,14 @@ article > section:nth-child(1) > section > h1 span:nth-child(3) { letter-spacing
 @media screen and (max-width: 460px) { article > section:nth-child(1) > section h1 { font-size: 4em; } }
 
 @media screen and (max-width: 370px) { article > section:nth-child(1) > section h1 { font-size: 3em; } }
+
+article > section:nth-child(1) > section > div { margin-top: 20px; box-shadow: inset 0px 0px 10px #1a237e; padding: 5px; overflow: hidden; }
+
+article > section:nth-child(1) > section > div ion-icon { font-size: 50px; color: white; transform: translateY(-80px); animation-name: icon; animation-duration: 2s; animation-iteration-count: infinite; animation-timing-function: linear; }
+
+@keyframes icon { 0% { transform: translateY(-80px); }
+  50% { transform: translateY(0px); }
+  100% { transform: translateY(80px); } }
 
 article > section:nth-child(1) .custom-shape-divider-bottom-1643123679 { position: absolute; bottom: 1vh; left: 0; width: 100%; overflow: hidden; line-height: 0; transform: rotate(180deg); }
 
