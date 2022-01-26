@@ -172,7 +172,7 @@ nav {
       z-index: 6;
       right: 0;
       display: flex;
-      top: 54px;
+      top: 53px;
       > div,
       > section {
         background-color: white;
@@ -200,6 +200,7 @@ nav {
         ul {
           display: flex;
           flex-direction: column;
+          overflow-y: auto;
           li {
             margin-top: 20px;
             a {
@@ -216,6 +217,9 @@ nav {
                   0 2px 4px -1px rgba(26, 35, 126, 0.3);
               }
             }
+          }
+          > li:last-child {
+            padding-bottom: 40px;
           }
         }
       }
@@ -241,6 +245,11 @@ nav {
           a {
             margin-top: 5px;
             color: $color-text-dark;
+          }
+        }
+        > section:last-child {
+          > a {
+            padding-bottom: 40px;
           }
         }
       }
