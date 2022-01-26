@@ -342,8 +342,8 @@ article {
         }
       }
     }
-
-    height: 99vh;
+    position: relative;
+    height: 100vh;
     background-color: hsla(207, 87.7%, 35.1%, 1);
     background-image: radial-gradient(
         at 83% 46%,
@@ -370,7 +370,7 @@ article {
       );
     .custom-shape-divider-bottom-1643123679 {
       position: absolute;
-      // bottom: 1vh;
+      bottom: 0;
       left: 0;
       width: 100%;
       overflow: hidden;
