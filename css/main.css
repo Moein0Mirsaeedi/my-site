@@ -130,4 +130,10 @@ article > section:nth-child(1) .custom-shape-divider-bottom-1643123679 svg { pos
 article > section:nth-child(1) .custom-shape-divider-bottom-1643123679 .shape-fill { fill: white; }
 
 article > section:nth-child(2) { height: 300vh; background-color: white; }
+
+article > section:nth-child(2) > section:nth-child(1) { padding-top: 100px; width: 100%; height: max-content; display: flex; justify-content: center; }
+
+article > section:nth-child(2) > section:nth-child(1) > div { padding: 40px 50px; width: 80%; height: 300px; box-shadow: 0 24px 38px 3px rgba(26, 35, 126, 0.14), 0 9px 46px 8px rgba(26, 35, 126, 0.12), 0 11px 15px -7px rgba(26, 35, 126, 0.3); border-bottom-right-radius: 100px; border-top-left-radius: 100px; }
+
+article > section:nth-child(2) > section:nth-child(1) > div h3 { font-size: 1.5em; }
 /*# sourceMappingURL=main.css.map */
