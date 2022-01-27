@@ -402,9 +402,8 @@ article {
       justify-content: center;
 
       > div {
-        padding: 40px 20px 40px 30px;
-        width: 75%;
-        height: 300px;
+        padding: 50px 30px 50px 40px;
+        width: 60%;
         box-shadow: 0 24px 38px 3px rgba(26, 35, 126, 0.14),
           0 9px 46px 8px rgba(26, 35, 126, 0.12),
           0 11px 15px -7px rgba(26, 35, 126, 0.3);
@@ -420,6 +419,14 @@ article {
           color: $color-text;
           margin-top: 20px;
           font-size: 1.2em;
+          line-height: 1.5em;
+          span {
+            color: #000;
+          }
+          a {
+            text-decoration: underline;
+            color: #000;
+          }
         }
 
         @media screen and (max-width: 700px) {
@@ -427,7 +434,7 @@ article {
             font-size: 1.5em;
           }
           p {
-            font-size: 0.9em;
+            font-size: 1em;
           }
         }
       }
