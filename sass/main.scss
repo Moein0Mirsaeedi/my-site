@@ -398,11 +398,12 @@ article {
       fill: white;
     }
   }
-  > section:nth-child(2) {
-    height: 300vh;
-    background-color: white;
 
+  > section:nth-child(2) {
     > section:nth-child(1) {
+      background-color: white;
+      padding-bottom: 150px;
+
       padding-top: 100px;
       width: 100%;
       height: max-content;
@@ -475,6 +476,109 @@ article {
             font-size: 1em;
           }
         }
+      }
+    }
+  }
+}
+
+// article {
+//   > section:nth-child(2) {
+//     > section:nth-child(2) {
+//       margin-top: 300px;
+//       width: 100%;
+//       height: max-content;
+//       display: flex;
+//       justify-content: center;
+
+//       > div {
+//         padding: 50px 30px 50px 40px;
+//         width: 60%;
+
+//         box-shadow: 0 24px 38px 3px rgba(26, 35, 126, 0.14),
+//           0 9px 46px 8px rgba(26, 35, 126, 0.12),
+//           0 11px 15px -7px rgba(26, 35, 126, 0.3);
+//         border-bottom-left-radius: 100px;
+//         border-top-right-radius: 100px;
+//         h3 {
+//           font-size: 2.5em;
+//           color: $color-text-dark;
+//         }
+//       }
+//     }
+//   }
+// }
+
+article {
+  > section:nth-child(2) {
+    > section:nth-child(2) {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      background-color: hsla(227, 62.7%, 55.9%, 1);
+      background-image: radial-gradient(
+          at 38% 93%,
+          hsla(40, 98.6%, 72.5%, 1) 0%,
+          transparent 50%
+        ),
+        radial-gradient(
+          at 10% 78%,
+          hsla(13, 91.3%, 55.1%, 1) 0%,
+          transparent 50%
+        ),
+        radial-gradient(
+          at 11% 38%,
+          hsla(297, 49.1%, 41.6%, 1) 0%,
+          transparent 50%
+        ),
+        radial-gradient(
+          at 57% 21%,
+          hsla(290, 55.7%, 46.1%, 1) 0%,
+          transparent 50%
+        ),
+        radial-gradient(
+          at 35% 35%,
+          hsla(290, 55.7%, 46.1%, 1) 0%,
+          transparent 50%
+        ),
+        radial-gradient(
+          at 79% 9%,
+          hsla(289, 55.7%, 46.1%, 1) 0%,
+          transparent 50%
+        ),
+        radial-gradient(
+          at 50% 49%,
+          hsla(340, 72.3%, 53.3%, 1) 0%,
+          transparent 50%
+        ),
+        radial-gradient(
+          at 51% 50%,
+          hsla(340, 72.3%, 53.3%, 1) 0%,
+          transparent 50%
+        ),
+        radial-gradient(
+          at 46% 93%,
+          hsla(41, 98.7%, 70.4%, 1) 0%,
+          transparent 50%
+        ),
+        radial-gradient(
+          at 85% 36%,
+          hsla(334, 70%, 51.6%, 1) 0%,
+          transparent 50%
+        ),
+        radial-gradient(
+          at 86% 64%,
+          hsla(334, 70%, 51.6%, 1) 0%,
+          transparent 50%
+        ),
+        radial-gradient(
+          at 86% 89%,
+          hsla(338, 70%, 51.6%, 1) 0%,
+          transparent 50%
+        );
+      > img:nth-child(3) {
+        position: absolute;
+        bottom: 0;
+        transform: rotate(180deg);
       }
     }
   }
