@@ -180,8 +180,6 @@ article > section:nth-child(2) > section:nth-child(3) { background-color: white;
 
 article > section:nth-child(2) > section:nth-child(3) > div { padding: 50px 30px 50px 40px; width: 60%; box-shadow: 0 24px 38px 3px rgba(26, 35, 126, 0.14), 0 9px 46px 8px rgba(26, 35, 126, 0.12), 0 11px 15px -7px rgba(26, 35, 126, 0.3); border-bottom-right-radius: 100px; border-top-left-radius: 100px; grid-template-rows: 50% 50%; grid-template-columns: 50% 50%; }
 
-@media screen and (max-width: 380px) { article > section:nth-child(2) > section:nth-child(3) > div { width: 80%; } }
-
 article > section:nth-child(2) > section:nth-child(3) > div h3 { font-size: 2.5em; color: #304ffe; }
 
 @media screen and (max-width: 700px) { article > section:nth-child(2) > section:nth-child(3) > div h3 { font-size: 1.5em; } }
