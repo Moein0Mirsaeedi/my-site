@@ -807,7 +807,7 @@ article {
         @media screen and (max-width: 650px) {
           padding: 10px 30px 10px 40px;
         }
-        h3 {
+        > h3 {
           color: $color-text-dark;
           font-size: 2em;
           margin-top: 30px;
@@ -865,7 +865,11 @@ article {
           }
         }
         > div:nth-child(3) {
-          margin-top: 50px;
+          margin-top: 70px;
+
+          > h3 {
+            color: $color-text-dark;
+          }
           a {
             box-shadow: 0 4px 5px 0 rgba(48, 79, 254, 0.14),
               0 1px 10px 0 rgba(48, 79, 254, 0.12),

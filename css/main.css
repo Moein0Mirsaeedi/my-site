@@ -249,11 +249,11 @@ article > section:nth-child(2) > section:nth-child(5) > div { padding: 50px 30px
 
 @media screen and (max-width: 650px) { article > section:nth-child(2) > section:nth-child(5) > div { padding: 10px 30px 10px 40px; } }
 
-article > section:nth-child(2) > section:nth-child(5) > div h3 { color: #304ffe; font-size: 2em; margin-top: 30px; }
+article > section:nth-child(2) > section:nth-child(5) > div > h3 { color: #304ffe; font-size: 2em; margin-top: 30px; }
 
-@media screen and (max-width: 1000px) { article > section:nth-child(2) > section:nth-child(5) > div h3 { font-size: 1.5em; } }
+@media screen and (max-width: 1000px) { article > section:nth-child(2) > section:nth-child(5) > div > h3 { font-size: 1.5em; } }
 
-@media screen and (max-width: 400px) { article > section:nth-child(2) > section:nth-child(5) > div h3 { font-size: 1.2em; } }
+@media screen and (max-width: 400px) { article > section:nth-child(2) > section:nth-child(5) > div > h3 { font-size: 1.2em; } }
 
 article > section:nth-child(2) > section:nth-child(5) > div > div:nth-child(2) { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 10px; }
 
@@ -269,7 +269,9 @@ article > section:nth-child(2) > section:nth-child(5) > div > div:nth-child(2) >
 
 @media screen and (max-width: 650px) { article > section:nth-child(2) > section:nth-child(5) > div > div:nth-child(2) > div > img { border-radius: 5px; } }
 
-article > section:nth-child(2) > section:nth-child(5) > div > div:nth-child(3) { margin-top: 50px; }
+article > section:nth-child(2) > section:nth-child(5) > div > div:nth-child(3) { margin-top: 70px; }
+
+article > section:nth-child(2) > section:nth-child(5) > div > div:nth-child(3) > h3 { color: #304ffe; }
 
 article > section:nth-child(2) > section:nth-child(5) > div > div:nth-child(3) a { box-shadow: 0 4px 5px 0 rgba(48, 79, 254, 0.14), 0 1px 10px 0 rgba(48, 79, 254, 0.12), 0 2px 4px -1px rgba(48, 79, 254, 0.3); transition: all 500ms; padding: 5px; display: inline-flex; align-items: center; justify-content: center; border-radius: 10px; color: #304ffe; overflow: hidden; position: relative; top: 5px; }
 
