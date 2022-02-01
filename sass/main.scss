@@ -801,6 +801,31 @@ article {
           0 9px 46px 8px rgba(26, 35, 126, 0.12),
           0 11px 15px -7px rgba(26, 35, 126, 0.3);
         border-radius: 100px;
+        > div:nth-child(1) {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          > div {
+            width: calc(50% - 10px);
+            > img {
+              position: relative;
+              width: 100%;
+              cursor: pointer;
+              transition: all 500ms;
+              // overflow: hidden;
+              &::before {
+                content: "";
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                background-color: blue;
+              }
+              &:hover {
+                opacity: 50%;
+              }
+            }
+          }
+        }
       }
     }
   }
