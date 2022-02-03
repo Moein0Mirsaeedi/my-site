@@ -44,19 +44,25 @@ $color-text-light: #536dfe;
 }
 
 @mixin bg3 {
-  background-color: hsla(210, 30%, 3.9%, 1);
+  background-color: hsla(0, 0%, 12.9%, 1);
   background-image: radial-gradient(
-      at 83% 46%,
-      hsla(220, 85.9%, 13.9%, 1) 0%,
+      at 48% 78%,
+      hsla(216, 12.2%, 16.1%, 1) 0%,
       transparent 50%
     ),
-    radial-gradient(at 58% 57%, hsla(330, 41.9%, 35.1%, 1) 0%, transparent 50%),
-    radial-gradient(at 52% 3%, hsla(279, 87.7%, 32%, 1) 0%, transparent 50%),
-    radial-gradient(at 34% 47%, hsla(214, 12.1%, 25.9%, 1) 0%, transparent 50%),
-    radial-gradient(at 26% 98%, hsla(157, 67.5%, 24.1%, 1) 0%, transparent 50%),
-    radial-gradient(at 17% 42%, hsla(213, 67.4%, 18%, 1) 0%, transparent 50%),
-    radial-gradient(at 27% 81%, hsla(297, 52.7%, 29%, 1) 0%, transparent 50%),
-    radial-gradient(at 2% 6%, hsla(177, 92.9%, 11%, 1) 0%, transparent 50%);
+    radial-gradient(at 80% 50%, hsla(0, 0%, 2.7%, 1) 0%, transparent 50%),
+    radial-gradient(at 34% 37%, hsla(204, 16.9%, 17.5%, 1) 0%, transparent 50%);
+}
+
+@mixin bg4 {
+  background-color: hsla(203, 73.3%, 52.9%, 1);
+  background-image: radial-gradient(
+      at 48% 78%,
+      hsla(201, 90.8%, 66.1%, 1) 0%,
+      transparent 50%
+    ),
+    radial-gradient(at 80% 50%, hsla(202, 81%, 77.3%, 1) 0%, transparent 50%),
+    radial-gradient(at 34% 37%, hsla(199, 100%, 50%, 1) 0%, transparent 50%);
 }
 
 * {
