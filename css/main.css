@@ -133,7 +133,7 @@ article > section:nth-child(1) .custom-shape-divider-bottom-1643123679 .shape-fi
 
 article > section:nth-child(2) > section:nth-child(1) { background-color: white; padding-bottom: 150px; padding-top: 100px; width: 100%; height: max-content; display: flex; justify-content: center; }
 
-article > section:nth-child(2) > section:nth-child(1) > div { padding: 50px 30px 50px 40px; width: 60%; box-shadow: 0 24px 38px 3px rgba(26, 35, 126, 0.14), 0 9px 46px 8px rgba(26, 35, 126, 0.12), 0 11px 15px -7px rgba(26, 35, 126, 0.3); border-bottom-right-radius: 100px; border-top-left-radius: 100px; }
+article > section:nth-child(2) > section:nth-child(1) > div { padding: 50px 30px 50px 40px; width: 60%; box-shadow: 0 24px 38px 3px rgba(26, 35, 126, 0.14), 0 9px 46px 8px rgba(26, 35, 126, 0.12), 0 11px 15px -7px rgba(26, 35, 126, 0.3); border-bottom-right-radius: 100px; border-bottom-left-radius: 10px; border-top-left-radius: 100px; border-top-right-radius: 10px; }
 
 article > section:nth-child(2) > section:nth-child(1) > div h3 { font-size: 2.5em; color: #304ffe; }
 
@@ -184,7 +184,7 @@ article > section:nth-child(2) > section:nth-child(2) > div a:hover { border-col
 
 article > section:nth-child(2) > section:nth-child(3) { background-color: white; padding-bottom: 150px; padding-top: 100px; width: 100%; height: max-content; display: flex; justify-content: center; }
 
-article > section:nth-child(2) > section:nth-child(3) > div { padding: 50px 30px 50px 40px; width: 60%; box-shadow: 0 24px 38px 3px rgba(26, 35, 126, 0.14), 0 9px 46px 8px rgba(26, 35, 126, 0.12), 0 11px 15px -7px rgba(26, 35, 126, 0.3); border-bottom-right-radius: 100px; border-top-left-radius: 100px; grid-template-rows: 50% 50%; grid-template-columns: 50% 50%; }
+article > section:nth-child(2) > section:nth-child(3) > div { padding: 50px 30px 50px 40px; width: 60%; box-shadow: 0 24px 38px 3px rgba(26, 35, 126, 0.14), 0 9px 46px 8px rgba(26, 35, 126, 0.12), 0 11px 15px -7px rgba(26, 35, 126, 0.3); border-bottom-left-radius: 100px; border-top-left-radius: 10px; border-top-right-radius: 100px; border-bottom-right-radius: 10px; grid-template-rows: 50% 50%; grid-template-columns: 50% 50%; }
 
 article > section:nth-child(2) > section:nth-child(3) > div h3 { font-size: 2.5em; color: #304ffe; }
 
@@ -243,7 +243,7 @@ article > section:nth-child(2) > section:nth-child(4) > div a:hover { border-col
 
 article > section:nth-child(2) > section:nth-child(5) { background-color: white; padding-bottom: 150px; padding-top: 150px; width: 100%; height: max-content; display: flex; justify-content: center; }
 
-article > section:nth-child(2) > section:nth-child(5) > div { padding: 50px 30px 50px 40px; width: 60%; box-shadow: 0 24px 38px 3px rgba(26, 35, 126, 0.14), 0 9px 46px 8px rgba(26, 35, 126, 0.12), 0 11px 15px -7px rgba(26, 35, 126, 0.3); border-radius: 100px; }
+article > section:nth-child(2) > section:nth-child(5) > div { padding: 50px 30px 50px 40px; width: 60%; box-shadow: 0 24px 38px 3px rgba(26, 35, 126, 0.14), 0 9px 46px 8px rgba(26, 35, 126, 0.12), 0 11px 15px -7px rgba(26, 35, 126, 0.3); border-top-left-radius: 100px; border-top-right-radius: 100px; border-bottom-right-radius: 10px; border-bottom-right-radius: 10px; }
 
 @media screen and (max-width: 900px) { article > section:nth-child(2) > section:nth-child(5) > div { border-radius: 40px; } }
 
@@ -302,4 +302,8 @@ article > section:nth-child(2) > section:nth-child(6) > div a { margin-top: 50px
 article > section:nth-child(2) > section:nth-child(6) > div a:hover { border-color: #304ffe; }
 
 @media screen and (max-width: 600px) { article > section:nth-child(2) > section:nth-child(6) div { width: 100%; } }
+
+article > section:nth-child(2) > section:nth-child(7) { background-color: white; padding-bottom: 150px; padding-top: 150px; width: 100%; height: 600px; display: flex; justify-content: center; }
+
+article > section:nth-child(2) > section:nth-child(7) > div { padding: 50px 30px 50px 40px; width: 60%; box-shadow: 0 24px 38px 3px rgba(26, 35, 126, 0.14), 0 9px 46px 8px rgba(26, 35, 126, 0.12), 0 11px 15px -7px rgba(26, 35, 126, 0.3); border-radius: 50px; }
 /*# sourceMappingURL=main.css.map */
