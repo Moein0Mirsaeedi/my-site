@@ -792,7 +792,7 @@ article {
       background-color: white;
       padding-bottom: 150px;
 
-      padding-top: 150px;
+      padding-top: 100px;
       width: 100%;
       height: max-content;
       display: flex;
@@ -812,17 +812,14 @@ article {
           border-radius: 40px;
         }
         @media screen and (max-width: 650px) {
-          padding: 10px 30px 10px 40px;
+          padding: 50px 30px 50px 40px;
         }
-        > h3 {
+
+        h3 {
+          font-size: 2.5em;
           color: $color-text-dark;
-          font-size: 2em;
-          margin-top: 30px;
-          @media screen and (max-width: 1000px) {
+          @media screen and (max-width: 700px) {
             font-size: 1.5em;
-          }
-          @media screen and (max-width: 400px) {
-            font-size: 1.2em;
           }
         }
         > div:nth-child(2) {
@@ -993,7 +990,7 @@ article {
     > section:nth-child(7) {
       background-color: white;
       padding-bottom: 150px;
-      padding-top: 150px;
+      padding-top: 100px;
       width: 100%;
       height: 600px;
       display: flex;
