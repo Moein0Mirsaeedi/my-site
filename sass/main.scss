@@ -429,6 +429,7 @@ article {
         h3 {
           font-size: 2.5em;
           color: $color-text-dark;
+          filter: drop-shadow(0 1px 0 black);
         }
 
         p {
@@ -643,6 +644,7 @@ article {
         h3 {
           font-size: 2.5em;
           color: $color-text-dark;
+          filter: drop-shadow(0 1px 0 black);
           @media screen and (max-width: 700px) {
             font-size: 1.5em;
           }
@@ -660,12 +662,18 @@ article {
 
           > div.col {
             border-radius: 10px;
-            box-shadow: 0 8px 17px 2px rgba(61, 90, 254, 0.14),
-              0 3px 14px 2px rgba(61, 90, 254, 0.12),
-              0 5px 5px -3px rgba(61, 90, 254, 0.3);
+            box-shadow: 0 4px 5px 0 rgba(61, 90, 254, 0.14),
+              0 1px 10px 0 rgba(61, 90, 254, 0.12),
+              0 2px 4px -1px rgba(61, 90, 254, 0.3);
             padding: 30px;
             margin: 10px;
-            // z-index: 5;
+            transition: all 500ms;
+            cursor: pointer;
+            &:hover {
+              box-shadow: 0 16px 24px 2px rgba(61, 90, 254, 0.14),
+                0 6px 30px 5px rgba(61, 90, 254, 0.12),
+                0 8px 10px -7px rgba(61, 90, 254, 0.3);
+            }
             @media screen and (max-width: 450px) {
               margin: 10px 0;
             }
@@ -764,7 +772,7 @@ article {
         flex-direction: column;
         h3 {
           color: $color-text-dark;
-          text-shadow: 0px 0px 5px #fff;
+          text-shadow: 0px 0px 5px rgb(0, 0, 0);
           font-size: 2.5em;
           text-align: center;
         }
@@ -824,6 +832,7 @@ article {
         h3 {
           font-size: 2.5em;
           color: $color-text-dark;
+          filter: drop-shadow(0 1px 0 black);
           @media screen and (max-width: 700px) {
             font-size: 1.5em;
           }
@@ -1016,6 +1025,7 @@ article {
         h3 {
           font-size: 2em;
           color: $color-text-dark;
+          filter: drop-shadow(0 1px 0 black);
           @media screen and (max-width: 700px) {
             font-size: 1.5em;
           }
