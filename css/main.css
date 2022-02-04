@@ -10,7 +10,7 @@ nav { box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 
 
 nav div.menu-md { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; }
 
-nav div.menu-md a.brand { font-size: 25px; font-family: "Archivo Black", sans-serif; color: #304ffe; }
+nav div.menu-md a.brand { font-size: 25px; font-family: "Archivo Black", sans-serif; color: #304ffe; filter: drop-shadow(1px 1px 0 black); }
 
 nav div.menu-md ul { display: flex; }
 
@@ -116,6 +116,8 @@ article > section:nth-child(1) > section > h1 span:nth-child(3) { letter-spacing
 @media screen and (max-width: 460px) { article > section:nth-child(1) > section h1 { font-size: 4em; } }
 
 @media screen and (max-width: 370px) { article > section:nth-child(1) > section h1 { font-size: 3em; } }
+
+@media screen and (max-width: 270px) { article > section:nth-child(1) > section h1 { font-size: 2em; } }
 
 article > section:nth-child(1) > section > div { margin-top: 20px; box-shadow: inset 0px 0px 10px #1a237e; padding: 5px; overflow: hidden; }
 
@@ -253,7 +255,7 @@ article > section:nth-child(2) > section:nth-child(5) > div h3 { font-size: 2.5e
 
 @media screen and (max-width: 700px) { article > section:nth-child(2) > section:nth-child(5) > div h3 { font-size: 1.5em; } }
 
-article > section:nth-child(2) > section:nth-child(5) > div > div:nth-child(2) { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 10px; }
+article > section:nth-child(2) > section:nth-child(5) > div > div:nth-child(2) { margin-top: 50px; display: flex; flex-wrap: wrap; gap: 10px; }
 
 @media screen and (max-width: 650px) { article > section:nth-child(2) > section:nth-child(5) > div > div:nth-child(2) { gap: 0; } }
 
@@ -305,7 +307,27 @@ article > section:nth-child(2) > section:nth-child(7) { background-color: white;
 
 article > section:nth-child(2) > section:nth-child(7) > div { padding: 50px 30px 50px 40px; width: 60%; box-shadow: 0 24px 38px 3px rgba(26, 35, 126, 0.14), 0 9px 46px 8px rgba(26, 35, 126, 0.12), 0 11px 15px -7px rgba(26, 35, 126, 0.3); border-radius: 50px; }
 
-article > section:nth-child(2) > section:nth-child(7) > div > div { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr 1fr; gap: 25px; }
+@media screen and (max-width: 270px) { article > section:nth-child(2) > section:nth-child(7) > div { padding: 50px 10px 50px 10px; } }
 
-article > section:nth-child(2) > section:nth-child(7) > div > div > div { box-shadow: 0 8px 17px 2px rgba(48, 79, 254, 0.14), 0 3px 14px 2px rgba(48, 79, 254, 0.12), 0 5px 5px -3px rgba(48, 79, 254, 0.3); padding: 10px; border-radius: 5px; height: max-content; }
+article > section:nth-child(2) > section:nth-child(7) > div h3 { font-size: 2em; color: #304ffe; }
+
+@media screen and (max-width: 700px) { article > section:nth-child(2) > section:nth-child(7) > div h3 { font-size: 1.5em; } }
+
+article > section:nth-child(2) > section:nth-child(7) > div > div { margin-top: 50px; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr 1fr; gap: 25px; }
+
+@media screen and (max-width: 700px) { article > section:nth-child(2) > section:nth-child(7) > div > div { grid-template-columns: 1fr; grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; } }
+
+article > section:nth-child(2) > section:nth-child(7) > div > div > div { box-shadow: 0 8px 17px 2px rgba(48, 79, 254, 0.14), 0 3px 14px 2px rgba(48, 79, 254, 0.12), 0 5px 5px -3px rgba(48, 79, 254, 0.3); padding: 15px; border-radius: 15px; height: max-content; transition: all 500ms; display: flex; flex-direction: column; align-items: center; cursor: pointer; }
+
+article > section:nth-child(2) > section:nth-child(7) > div > div > div:hover { box-shadow: 0 16px 24px 2px rgba(48, 79, 254, 0.14), 0 6px 30px 5px rgba(48, 79, 254, 0.12), 0 8px 10px -7px rgba(48, 79, 254, 0.3); border-radius: 20px; }
+
+article > section:nth-child(2) > section:nth-child(7) > div > div > div > span.to { display: none; text-align: center; }
+
+@media screen and (max-width: 750px) { article > section:nth-child(2) > section:nth-child(7) > div > div > div { padding: 10px; }
+  article > section:nth-child(2) > section:nth-child(7) > div > div > div > span.email { font-size: 14px; } }
+
+@media screen and (max-width: 370px) { article > section:nth-child(2) > section:nth-child(7) > div > div > div > span.email { display: none; }
+  article > section:nth-child(2) > section:nth-child(7) > div > div > div > span.to { display: block; } }
+
+@media screen and (max-width: 300px) { article > section:nth-child(2) > section:nth-child(7) > div > div > div > span { font-size: 14px; } }
 /*# sourceMappingURL=main.css.map */
