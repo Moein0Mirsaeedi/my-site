@@ -31,7 +31,7 @@ $color-text-light: #536dfe;
       transparent 50%
     ),
     radial-gradient(at 10% 78%, hsla(13, 91.3%, 55.1%, 1) 0%, transparent 50%),
-    radial-gradient(at 11% 38%, hsla(297, 49.1%, 41.6%, 1) 0%, transparent 50%),
+    radial-gradient(at 11% 38%, hsl(297, 49%, 42%) 0%, transparent 50%),
     radial-gradient(at 57% 21%, hsla(290, 55.7%, 46.1%, 1) 0%, transparent 50%),
     radial-gradient(at 35% 35%, hsla(290, 55.7%, 46.1%, 1) 0%, transparent 50%),
     radial-gradient(at 79% 9%, hsla(289, 55.7%, 46.1%, 1) 0%, transparent 50%),
@@ -51,7 +51,7 @@ $color-text-light: #536dfe;
       transparent 50%
     ),
     radial-gradient(at 80% 50%, hsla(0, 0%, 2.7%, 1) 0%, transparent 50%),
-    radial-gradient(at 34% 37%, hsla(204, 16.9%, 17.5%, 1) 0%, transparent 50%);
+    radial-gradient(at 34% 37%, hsl(204, 17%, 17%) 0%, transparent 50%);
 }
 
 @mixin bg4 {
@@ -62,7 +62,7 @@ $color-text-light: #536dfe;
       transparent 50%
     ),
     radial-gradient(at 80% 50%, hsla(202, 81%, 77.3%, 1) 0%, transparent 50%),
-    radial-gradient(at 34% 37%, hsla(199, 100%, 50%, 1) 0%, transparent 50%);
+    radial-gradient(at 34% 37%, hsl(199, 100%, 50%) 0%, transparent 50%);
 }
 
 * {

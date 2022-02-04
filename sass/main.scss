@@ -441,9 +441,9 @@ article {
             color: #000;
           }
           a {
-            box-shadow: 0 4px 5px 0 rgba(48, 79, 254, 0.14),
-              0 1px 10px 0 rgba(48, 79, 254, 0.12),
-              0 2px 4px -1px rgba(48, 79, 254, 0.3);
+            box-shadow: 0 2px 2px 0 rgba(61, 90, 254, 0.14),
+              0 3px 1px -2px rgba(61, 90, 254, 0.12),
+              0 1px 5px 0 rgba(61, 90, 254, 0.3);
             transition: all 500ms;
             padding: 5px;
             display: inline-flex;
@@ -454,6 +454,13 @@ article {
             overflow: hidden;
             position: relative;
             top: 5px;
+
+            &:hover {
+              box-shadow: 0 8px 17px 2px rgba(61, 90, 254, 0.14),
+                0 3px 14px 2px rgba(61, 90, 254, 0.12),
+                0 5px 5px -3px rgba(61, 90, 254, 0.3);
+            }
+
             &:hover > span {
               width: max-content;
               transition: all 500ms;
@@ -478,6 +485,7 @@ article {
           width: 40%;
           float: right;
           margin-top: -150px;
+          // filter: drop-shadow(0 0 15px $color-text);
         }
 
         @media screen and (max-width: 1050px) {
@@ -559,6 +567,7 @@ article {
       > img:nth-child(1) {
         position: absolute;
         top: 0;
+        // filter: drop-shadow(0 0 5px rgb(255, 255, 255));
       }
       > img:nth-child(3) {
         position: absolute;
@@ -586,7 +595,7 @@ article {
         align-items: center;
         flex-direction: column;
         h3 {
-          color: $color-text-dark;
+          color: #99369e;
           text-shadow: 0px 0px 5px #fff;
           font-size: 2.5em;
           text-align: center;
@@ -771,8 +780,8 @@ article {
         align-items: center;
         flex-direction: column;
         h3 {
-          color: $color-text-dark;
-          text-shadow: 0px 0px 5px rgb(0, 0, 0);
+          color: #252e34;
+          text-shadow: 0 0 5px #fff;
           font-size: 2.5em;
           text-align: center;
         }
@@ -971,8 +980,8 @@ article {
         align-items: center;
         flex-direction: column;
         h3 {
-          color: $color-text-dark;
-          text-shadow: 0px 0px 5px #fff;
+          color: #00aeff;
+          text-shadow: 0px 0px 10px #ffffff;
           font-size: 2.5em;
           text-align: center;
         }

@@ -143,7 +143,9 @@ article > section:nth-child(2) > section:nth-child(1) > div p { color: #3d5afe; 
 
 article > section:nth-child(2) > section:nth-child(1) > div p span { color: #000; }
 
-article > section:nth-child(2) > section:nth-child(1) > div p a { box-shadow: 0 4px 5px 0 rgba(48, 79, 254, 0.14), 0 1px 10px 0 rgba(48, 79, 254, 0.12), 0 2px 4px -1px rgba(48, 79, 254, 0.3); transition: all 500ms; padding: 5px; display: inline-flex; align-items: center; justify-content: center; border-radius: 10px; color: #304ffe; overflow: hidden; position: relative; top: 5px; }
+article > section:nth-child(2) > section:nth-child(1) > div p a { box-shadow: 0 2px 2px 0 rgba(61, 90, 254, 0.14), 0 3px 1px -2px rgba(61, 90, 254, 0.12), 0 1px 5px 0 rgba(61, 90, 254, 0.3); transition: all 500ms; padding: 5px; display: inline-flex; align-items: center; justify-content: center; border-radius: 10px; color: #304ffe; overflow: hidden; position: relative; top: 5px; }
+
+article > section:nth-child(2) > section:nth-child(1) > div p a:hover { box-shadow: 0 8px 17px 2px rgba(61, 90, 254, 0.14), 0 3px 14px 2px rgba(61, 90, 254, 0.12), 0 5px 5px -3px rgba(61, 90, 254, 0.3); }
 
 article > section:nth-child(2) > section:nth-child(1) > div p a:hover > span { width: max-content; transition: all 500ms; transform: translateX(5px); padding-right: 15px; }
 
@@ -164,7 +166,7 @@ article > section:nth-child(2) > section:nth-child(1) > div img { width: 40%; fl
 @media screen and (max-width: 700px) { article > section:nth-child(2) > section:nth-child(1) > div h3 { font-size: 1.5em; }
   article > section:nth-child(2) > section:nth-child(1) > div p { font-size: 1em; } }
 
-article > section:nth-child(2) > section:nth-child(2) { position: relative; width: 100%; height: 100vh; display: flex; justify-content: center; align-items: center; background-color: #4867d5; background-image: radial-gradient(at 38% 93%, #fed074 0%, transparent 50%), radial-gradient(at 10% 78%, #f55124 0%, transparent 50%), radial-gradient(at 11% 38%, #99369e 0%, transparent 50%), radial-gradient(at 57% 21%, #a134b7 0%, transparent 50%), radial-gradient(at 35% 35%, #a134b7 0%, transparent 50%), radial-gradient(at 79% 9%, #9f34b7 0%, transparent 50%), radial-gradient(at 50% 49%, #de326b 0%, transparent 50%), radial-gradient(at 51% 50%, #de326b 0%, transparent 50%), radial-gradient(at 46% 93%, #fecf69 0%, transparent 50%), radial-gradient(at 85% 36%, #da2d78 0%, transparent 50%), radial-gradient(at 86% 64%, #da2d78 0%, transparent 50%), radial-gradient(at 86% 89%, #da2d6d 0%, transparent 50%); }
+article > section:nth-child(2) > section:nth-child(2) { position: relative; width: 100%; height: 100vh; display: flex; justify-content: center; align-items: center; background-color: #4867d5; background-image: radial-gradient(at 38% 93%, #fed074 0%, transparent 50%), radial-gradient(at 10% 78%, #f55124 0%, transparent 50%), radial-gradient(at 11% 38%, #9a37a0 0%, transparent 50%), radial-gradient(at 57% 21%, #a134b7 0%, transparent 50%), radial-gradient(at 35% 35%, #a134b7 0%, transparent 50%), radial-gradient(at 79% 9%, #9f34b7 0%, transparent 50%), radial-gradient(at 50% 49%, #de326b 0%, transparent 50%), radial-gradient(at 51% 50%, #de326b 0%, transparent 50%), radial-gradient(at 46% 93%, #fecf69 0%, transparent 50%), radial-gradient(at 85% 36%, #da2d78 0%, transparent 50%), radial-gradient(at 86% 64%, #da2d78 0%, transparent 50%), radial-gradient(at 86% 89%, #da2d6d 0%, transparent 50%); }
 
 article > section:nth-child(2) > section:nth-child(2) > img:nth-child(1) { position: absolute; top: 0; }
 
@@ -176,9 +178,9 @@ article > section:nth-child(2) > section:nth-child(2) > img { height: 100px; wid
 
 article > section:nth-child(2) > section:nth-child(2) > div { width: 500px; height: 250px; background-color: rgba(255, 255, 255, 0.356); border: rgba(255, 255, 255, 0.493) 2px solid; border-radius: 10px; padding: 20px; display: flex; justify-content: center; align-items: center; flex-direction: column; }
 
-article > section:nth-child(2) > section:nth-child(2) > div h3 { color: #304ffe; text-shadow: 0px 0px 5px #fff; font-size: 2.5em; text-align: center; }
+article > section:nth-child(2) > section:nth-child(2) > div h3 { color: #99369e; text-shadow: 0px 0px 5px #fff; font-size: 2.5em; text-align: center; }
 
-article > section:nth-child(2) > section:nth-child(2) > div a { margin-top: 50px; background-color: #4867d5; background-image: radial-gradient(at 38% 93%, #fed074 0%, transparent 50%), radial-gradient(at 10% 78%, #f55124 0%, transparent 50%), radial-gradient(at 11% 38%, #99369e 0%, transparent 50%), radial-gradient(at 57% 21%, #a134b7 0%, transparent 50%), radial-gradient(at 35% 35%, #a134b7 0%, transparent 50%), radial-gradient(at 79% 9%, #9f34b7 0%, transparent 50%), radial-gradient(at 50% 49%, #de326b 0%, transparent 50%), radial-gradient(at 51% 50%, #de326b 0%, transparent 50%), radial-gradient(at 46% 93%, #fecf69 0%, transparent 50%), radial-gradient(at 85% 36%, #da2d78 0%, transparent 50%), radial-gradient(at 86% 64%, #da2d78 0%, transparent 50%), radial-gradient(at 86% 89%, #da2d6d 0%, transparent 50%); padding: 10px; border-radius: 10px; color: #fff; font-size: 1.5em; border: white 2px solid; transition: all 300ms; }
+article > section:nth-child(2) > section:nth-child(2) > div a { margin-top: 50px; background-color: #4867d5; background-image: radial-gradient(at 38% 93%, #fed074 0%, transparent 50%), radial-gradient(at 10% 78%, #f55124 0%, transparent 50%), radial-gradient(at 11% 38%, #9a37a0 0%, transparent 50%), radial-gradient(at 57% 21%, #a134b7 0%, transparent 50%), radial-gradient(at 35% 35%, #a134b7 0%, transparent 50%), radial-gradient(at 79% 9%, #9f34b7 0%, transparent 50%), radial-gradient(at 50% 49%, #de326b 0%, transparent 50%), radial-gradient(at 51% 50%, #de326b 0%, transparent 50%), radial-gradient(at 46% 93%, #fecf69 0%, transparent 50%), radial-gradient(at 85% 36%, #da2d78 0%, transparent 50%), radial-gradient(at 86% 64%, #da2d78 0%, transparent 50%), radial-gradient(at 86% 89%, #da2d6d 0%, transparent 50%); padding: 10px; border-radius: 10px; color: #fff; font-size: 1.5em; border: white 2px solid; transition: all 300ms; }
 
 article > section:nth-child(2) > section:nth-child(2) > div a:hover { border-color: #304ffe; }
 
@@ -225,7 +227,7 @@ article > section:nth-child(2) > section:nth-child(3) > div > div.row > div.col 
 @media screen and (max-width: 700px) { article > section:nth-child(2) > section:nth-child(3) > div h3 { font-size: 1.5em; }
   article > section:nth-child(2) > section:nth-child(3) > div p { font-size: 1em; } }
 
-article > section:nth-child(2) > section:nth-child(4) { position: relative; width: 100%; height: 100vh; display: flex; justify-content: center; align-items: center; background-color: #212121; background-image: radial-gradient(at 48% 78%, #24282e 0%, transparent 50%), radial-gradient(at 80% 50%, #070707 0%, transparent 50%), radial-gradient(at 34% 37%, #252e34 0%, transparent 50%); }
+article > section:nth-child(2) > section:nth-child(4) { position: relative; width: 100%; height: 100vh; display: flex; justify-content: center; align-items: center; background-color: #212121; background-image: radial-gradient(at 48% 78%, #24282e 0%, transparent 50%), radial-gradient(at 80% 50%, #070707 0%, transparent 50%), radial-gradient(at 34% 37%, #242d33 0%, transparent 50%); }
 
 article > section:nth-child(2) > section:nth-child(4) > img:nth-child(1) { position: absolute; top: 0; }
 
@@ -237,9 +239,9 @@ article > section:nth-child(2) > section:nth-child(4) > img { height: 100px; wid
 
 article > section:nth-child(2) > section:nth-child(4) > div { width: 500px; height: 250px; background-color: rgba(255, 255, 255, 0.356); border: rgba(255, 255, 255, 0.493) 2px solid; border-radius: 10px; padding: 20px; display: flex; justify-content: center; align-items: center; flex-direction: column; }
 
-article > section:nth-child(2) > section:nth-child(4) > div h3 { color: #304ffe; text-shadow: 0px 0px 5px black; font-size: 2.5em; text-align: center; }
+article > section:nth-child(2) > section:nth-child(4) > div h3 { color: #252e34; text-shadow: 0 0 5px #fff; font-size: 2.5em; text-align: center; }
 
-article > section:nth-child(2) > section:nth-child(4) > div a { margin-top: 50px; background-color: #212121; background-image: radial-gradient(at 48% 78%, #24282e 0%, transparent 50%), radial-gradient(at 80% 50%, #070707 0%, transparent 50%), radial-gradient(at 34% 37%, #252e34 0%, transparent 50%); padding: 10px; border-radius: 10px; color: #fff; font-size: 1.5em; border: white 2px solid; transition: all 300ms; }
+article > section:nth-child(2) > section:nth-child(4) > div a { margin-top: 50px; background-color: #212121; background-image: radial-gradient(at 48% 78%, #24282e 0%, transparent 50%), radial-gradient(at 80% 50%, #070707 0%, transparent 50%), radial-gradient(at 34% 37%, #242d33 0%, transparent 50%); padding: 10px; border-radius: 10px; color: #fff; font-size: 1.5em; border: white 2px solid; transition: all 300ms; }
 
 article > section:nth-child(2) > section:nth-child(4) > div a:hover { border-color: #304ffe; }
 
@@ -297,7 +299,7 @@ article > section:nth-child(2) > section:nth-child(6) > img { height: 100px; wid
 
 article > section:nth-child(2) > section:nth-child(6) > div { width: 500px; height: 250px; background-color: rgba(255, 255, 255, 0.356); border: rgba(255, 255, 255, 0.493) 2px solid; border-radius: 10px; padding: 20px; display: flex; justify-content: center; align-items: center; flex-direction: column; }
 
-article > section:nth-child(2) > section:nth-child(6) > div h3 { color: #304ffe; text-shadow: 0px 0px 5px #fff; font-size: 2.5em; text-align: center; }
+article > section:nth-child(2) > section:nth-child(6) > div h3 { color: #00aeff; text-shadow: 0px 0px 10px #ffffff; font-size: 2.5em; text-align: center; }
 
 article > section:nth-child(2) > section:nth-child(6) > div a { margin-top: 50px; background-color: #2f9bdf; background-image: radial-gradient(at 48% 78%, #5ac0f7 0%, transparent 50%), radial-gradient(at 80% 50%, #96d2f4 0%, transparent 50%), radial-gradient(at 34% 37%, #00aeff 0%, transparent 50%); padding: 10px; border-radius: 10px; color: #fff; font-size: 1.5em; border: white 2px solid; transition: all 300ms; }
 
@@ -332,4 +334,8 @@ article > section:nth-child(2) > section:nth-child(7) > div > div > div > span.t
   article > section:nth-child(2) > section:nth-child(7) > div > div > div > span.to { display: block; } }
 
 @media screen and (max-width: 300px) { article > section:nth-child(2) > section:nth-child(7) > div > div > div > span { font-size: 14px; } }
+
+footer { display: flex; justify-content: center; align-items: center; }
+
+footer h2 { font-size: 20px; }
 /*# sourceMappingURL=main.css.map */
