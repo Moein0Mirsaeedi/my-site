@@ -335,7 +335,9 @@ article > section:nth-child(2) > section:nth-child(7) > div > div > div > span.t
 
 @media screen and (max-width: 300px) { article > section:nth-child(2) > section:nth-child(7) > div > div > div > span { font-size: 14px; } }
 
-footer { display: flex; justify-content: center; align-items: center; }
+footer { display: flex; justify-content: center; align-items: center; background-color: #2c2525; background-image: radial-gradient(at 41% 18%, #fa009a 0%, transparent 50%), radial-gradient(at 53% 23%, #ff0066 0%, transparent 50%), radial-gradient(at 62% 38%, #ff0004 0%, transparent 50%), radial-gradient(at 76% 65%, #fe3523 0%, transparent 50%), radial-gradient(at 75% 87%, #ff1e00 0%, transparent 50%), radial-gradient(at 44% 42%, #e600ff 0%, transparent 50%), radial-gradient(at 45% 56%, #7300ff 0%, transparent 50%), radial-gradient(at 46% 68%, #2f00ff 0%, transparent 50%); border-top-left-radius: 10px; border-top-right-radius: 10px; padding: 10px; }
 
-footer h2 { font-size: 20px; }
+footer h2 { font-size: 20px; color: #fff; }
+
+footer h2 a { color: #ffffff; }
 /*# sourceMappingURL=main.css.map */
