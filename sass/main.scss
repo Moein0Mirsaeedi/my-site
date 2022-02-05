@@ -838,7 +838,7 @@ article {
           padding: 50px 30px 50px 40px;
         }
 
-        h3 {
+        > h3 {
           font-size: 2.5em;
           color: $color-text-dark;
           filter: drop-shadow(0 1px 0 black);
@@ -1112,8 +1112,8 @@ footer {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   padding: 10px;
-  h2 {
-    font-size: 20px;
+  span {
+    font-size: 18px;
     color: #ffffff;
     text-shadow: 1px 1px 1px #000000;
     text-align: center;
